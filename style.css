@@ -125,7 +125,7 @@ nav {
 }
 
 .hidden-text {
-    display: none;
+    display: contents;
     font-size: 1em;
     font-weight: 100;
     color: white;
