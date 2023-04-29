@@ -84,7 +84,7 @@ nav {
         display: block;
     }
     .clickable-text {
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
 }
 
@@ -126,8 +126,7 @@ nav {
 .hidden-text {
     display: none;
     font-size: 1em;
-    font-weight: 600;
-    text-decoration: underline;
+    font-weight: 100;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
 }
