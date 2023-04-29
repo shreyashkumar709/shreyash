@@ -19,7 +19,7 @@ window.addEventListener("load", (e) => {
     });
     const registerButton = document.getElementById("register-button");
     registerButton.addEventListener("click", () => {
-        let name = prompt("Please enter your name:");
+        let name = prompt("Your Name-");
         while (name === null || name.trim() === "") {
             name = prompt("Your Name-");
         }
