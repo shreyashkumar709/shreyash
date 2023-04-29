@@ -84,9 +84,6 @@ nav {
         padding: 20px;
         display: block;
     }
-    .clickable-text {
-        overflow-x: hidden;
-    }
 }
 
 .centered-text {
@@ -125,10 +122,11 @@ nav {
 }
 
 .hidden-text {
-    display: contents;
-    font-size: 1em;
+    display: nonw;
+    font-size: 1.5em;
     font-weight: 100;
     color: white;
+    margin-top: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
 }
