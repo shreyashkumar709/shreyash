@@ -21,7 +21,7 @@ window.addEventListener("load", (e) => {
     registerButton.addEventListener("click", () => {
         let name = prompt("Please enter your name:");
         while (name === null || name.trim() === "") {
-            name = prompt("Please enter a valid name:");
+            name = prompt("Your Name-");
         }
         alert(`Welcome, ${name}!`);
     });
